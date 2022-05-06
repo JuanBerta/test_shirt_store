@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <!-- Add normalize.css -->
+    <link rel="preconnect" href="/css/normalize.css" as="style">
+    <link rel="stylesheet" href="/css/normalize.css">
+
+    <!-- Add about_us.css -->
+    <link rel="preconnect" href="/css/about_us.css" as="style">
+    <link rel="stylesheet" href="/css/about_us.css">
+
+    <!-- Add common-elements.css -->
+    <link rel="preconnect" href="/css/common-elements.css" as="style">
+    <link rel="stylesheet" href="/css/common-elements.css">
+    
+    <!-- Add google fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Staatliches&display=swap" rel="stylesheet">
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Front End Store</title>
+</head>
+<body>
+    <div class="top-container">
+
+    </div>
+    <header class="header">
+        <a href="index.html">
+            <img class="header__logo" src="/img/logo.png" alt="front end store logo">
+        </a>
+    </header>
+
+    <nav class="navigation">
+        <a class="navigation__link" href="index.html">Shop</a>
+        <a class="navigation__link navigation__link--active" href="about_us.html">About Us</a>
+    </nav>
+
+    <main class="text-description">
+        <h1 class="text-description__title">FRONT END STORE</h1>
+        <h2 class="text-description__h2">We are the best store of shirts for programmers in the world, with 15 years
+            of service for the most demanding clients that searches the most quality of our products
+        </h2>
+        <h3 class="text-description__h3">Examples of our products</h3>
+    </main>
+
+    <!-- Vue Js Product -->
+    <div class="grid">
+        <div class="product">
+            <a href="#">
+                <img class="product__image" src="/img/1.jpg" alt="VueJS-shirt-image">
+                <div class="product__information">
+                    <p class="product__name">Vue JS</p>
+                    <p class="product__price">$25</p>
+                </div>
+            </a>
+        </div>
+
+        <!-- Angular Js Product -->
+        <div class="product">
+            <a href="#">
+                <img class="product__image" src="/img/2.jpg" alt="AngularJS-shirt-image">
+                <div class="product__information">
+                    <p class="product__name">Angular JS</p>
+                    <p class="product__price">$25</p>
+                </div>
+            </a>
+        </div>
+
+        <!-- React Js Product -->
+        <div class="product">
+            <a href="#">
+                <img class="product__image" src="/img/3.jpg" alt="ReactJS-shirt-image">
+                <div class="product__information">
+                    <p class="product__name">React JS</p>
+                    <p class="product__price">$25</p>
+                </div>
+            </a>
+        </div>
+    </div>
+
+    <footer class="footer">
+        <p class="footer__text">Front End Store - All Rights Reserved 2022</p>
+    </footer>
+</body>
+</html>

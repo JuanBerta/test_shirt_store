@@ -1,0 +1,64 @@
+$primary: #07ccc5;
+$dark_primary: #047a76;
+$secondary: #D4FADE;
+$font_color: #212121;
+$black: #212121;
+$white: #FFFFFF;
+$main-font: 'Staatliches', cursive;
+
+.text-description__title{
+    color: $white;
+}
+
+.text-description__h2{
+    color: $white;
+    padding: 0 2rem;
+}
+
+.text-description__h3{
+    color: $white;
+    padding: 2rem 0;
+}
+
+/* Grid */
+.grid{
+    display: grid;
+    grid-template-columns: repeat(2.5, 1fr);
+    gap: 2rem;
+    margin-left: 7rem;
+}
+
+@media (min-width: 768px){
+    .grid{
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+/* Products */
+.product{
+    background-color: $dark_primary;
+    padding: 1rem;
+}
+
+.product__image{
+    width: 75%;
+    border: solid 0.5rem $black;
+}
+
+.product__information{
+    background-color: $secondary;
+    width: 75%;
+    min-height: 10%;
+    margin-bottom: 1rem;
+    border: solid 0.2rem $black;
+}
+
+.product__name{
+    color: $black;
+    text-align: center;
+}
+
+.product__price{
+    text-align: center;
+    color: $black;
+}

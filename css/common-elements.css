@@ -1,0 +1,116 @@
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+  font-family: "Staatliches", cursive;
+}
+
+body {
+  background-color: #047a76;
+  line-height: 1.5;
+}
+
+p {
+  font-size: 1.8rem;
+  color: #FFFFFF;
+  text-align: center;
+}
+
+.container {
+  max-width: 120rem;
+  margin: 0 auto;
+}
+
+h1, h2, h3 {
+  text-align: center;
+  color: #D4FADE;
+}
+
+h1 {
+  font-size: 4rem;
+}
+
+h2 {
+  font-size: 3rem;
+}
+
+h3 {
+  font-size: 2rem;
+}
+
+.header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background-color: #07ccc5;
+}
+
+.header__logo {
+  width: 100%;
+  max-width: 20rem;
+  padding: 2rem 0;
+}
+
+.top-container {
+  background-color: #047a76;
+  width: 100%;
+  padding-bottom: 3.5rem;
+}
+
+.navigation {
+  background-color: #047a76;
+  padding: 1rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  border: solid 0.2rem #D4FADE;
+}
+
+.navigation__link {
+  font-size: 2rem;
+  margin: 0 1rem;
+  text-decoration: none;
+  color: #212121;
+  word-spacing: 0.5rem;
+  padding: 0 2rem;
+  border: solid 0.2rem #D4FADE;
+  -webkit-transition: 0.5s ease-in-out;
+  transition: 0.5s ease-in-out;
+}
+
+.navigation__link:hover, navigation__link--active {
+  color: #212121;
+  background-color: #D4FADE;
+  border-radius: 5%;
+}
+
+.footer {
+  background-color: #047a76;
+  padding: 5rem 0;
+  margin-top: 2rem;
+  border: solid 0.2rem #D4FADE;
+}
+
+.footer:hover {
+  background-color: #D4FADE;
+}
+
+.footer:hover .footer__text {
+  color: #212121;
+}
+
+.footer__text {
+  text-align: center;
+}
+/*# sourceMappingURL=common-elements.css.map */
